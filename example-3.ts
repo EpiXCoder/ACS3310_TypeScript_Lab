@@ -4,8 +4,8 @@
 // - function parameters
 // - function return
 
-function printCopy(str, n) {
-  let result = ''
+function printCopy(str: string, n: number): string {
+  let result: string = ''
   for (let i = 0; i < n; i += 1) {
     result += str + '\n'
   }

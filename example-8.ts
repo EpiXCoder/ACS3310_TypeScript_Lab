@@ -10,11 +10,24 @@
 // Kaiju class that initializes it's properties!
 
 enum KaijuType { 
-	
+	lizard,
+	flying,
+	ape
 }
-
 class Kaiju {
-	
+    name: string;
+    power: number;
+    type: KaijuType;
+
+    constructor(name: string, type: KaijuType, power: number) {
+        this.name = name;
+        this.type = type;
+        this.power = power;
+    }
+
+    describe(): void {
+        console.log(`name:${this.name} type:${KaijuType[this.type]} power:${this.power}`);
+    }
 }
 
 export {

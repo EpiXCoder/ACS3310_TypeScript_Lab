@@ -13,7 +13,8 @@ import Person, { Course, Student } from './example-10.js'
 // Write an interface with name and age
 
 interface Human {
-
+	name: string
+	age: number
 }
 
 const amy: Human = new Student('Amy', 21)

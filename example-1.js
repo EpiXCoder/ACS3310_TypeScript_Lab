@@ -12,5 +12,6 @@ console.log(answer)
 // Run the code here and look at the results
 // Does it look right? 
 // What went wrong?
+THe price and tax are strings instead of numbers
 
 
